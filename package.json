@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "ganache": "^7.9.0",
+    "web3": "^4.0.1-rc.1"
+  },
+  "scripts": {
+    "ganache": "ganache --wallet.seed myCustomSeed",
+    "http": "node web3-http-provider.js",
+    "ws": "node web3-websocket-provider.js",
+    "ipc": "node web3-ipc-provider.js",
+    "infura": "node web3-infura-provider.js",
+    "injected": "node ./web3-browser-injected-providers/server.js"
+  }
+}
